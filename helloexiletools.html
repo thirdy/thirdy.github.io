@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<!-- https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js -->
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  
+  $.ajax({
+  type: "GET",
+  headers: {
+    'Authorization':'DEVELOPMENT-Indexer',
+    'Accept':'application/json',
+    'Content-Type':'application/json'
+  },
+  url: "http://api.exiletools.com/index/_mapping/field/shop.*?pretty",
+  dataType: 'text jsonp',
+}).success( function( data ) {
+    $("#msgid").html("GET request status: " + data);
+});
+
+ 
+});
+
+</script>
+
+This is Hello Exile Tools + JQuery
+
+<div id="msgid">
+</div>
+
+</body>
+</html>
