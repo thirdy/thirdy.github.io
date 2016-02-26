@@ -4,28 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hello World Example w/ Angular</title>
+  <title>PoE Blackmarket</title>
 
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
   <!-- Warning, I've seen some glitchy errors on newer versions, I think they require node.js installation or some idiocy -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/elasticsearch/10.0.1/elasticsearch.angular.min.js"></script>
-  <script src="js/es-helloworld.js"></script> --
+  <script src="js/es.js"></script>
 
 </head>
 <body>
+Blackmarket Web/Prototype - see also <a href="http://api.exiletools.com/info/indexer-docs.html">exile tools doc</a>
+<br/>
+--
+<br/>
 <!-- Main div starts at 0 spacing for simplicity -->
 <div id="main" style="width:100%;padding-left:50px;padding-right:50px" ng-controller="ExileToolsHelloWorld" >
-  <h1>This is a hello world test. You should see response data below. If not, check your console!</h1>
+  <input ng-model="searchInput" my-enter="doSearch()" size="150" type="text"></input>
+  <input ng-click="doSearch()" type="button" value="Search"/>
   <hr width=100% size=1>
 
   <div>
     <li>Request took {{Response.took}} ms
     <li>Request matched {{Response.hits.total}} hits
-    <p>Here is some information on the items returned:</p>
 
     <ul>
-      <li ng-repeat="item in Response.hits.hits">{{item._source.info.fullName}},{{item._source.shop.updated}}</li>
+      <li ng-repeat="item in Response.hits.hits">
+        {{item._source.info.fullName}},<img ng-src="{{item._source.info.icon}}" />
+      </li>
     </ul>
   </div>
 </div>

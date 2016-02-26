@@ -7,35 +7,45 @@ EsConnector.service('es', function (esFactory) {
 });
 
 EsConnector.controller('ExileToolsHelloWorld', function($scope, es) {
-  // Set up the ES Search function
-  es.search({
-  index: 'index',
-  // Query for the 100 most recently updated items of items updated in the last day
-  body: {
-    "sort": [
-      {
-        "shop.updated": {
-          "order": "desc"
-        }
-      }
-    ], 
-    "query": {
-      "filtered": {
-        "filter": {
-          "range": {
-            "shop.updated": {
-              "gte": "now-1d"
-            }
+  // Default
+  $scope.searchInput = "attributes.baseItemType:Armour AND shop.updated:>1456191110199";
+  $scope.doSearch = function() {
+          es.search({
+          index: 'index',
+          body: {
+            "sort": [
+              {
+                "shop.updated": {
+                  "order": "desc"
+                }
+              }
+            ], 
+            "query": {
+                "query_string": {
+                   "query": $scope.searchInput
+                }
+            },
+            size:100
           }
-        }
-      }
-    },
-    size:100
+          }).then(function (response) {
+            $scope.Response = response;
+          }, function (err) {
+            console.trace(err.message);
+          });
   }
-  }).then(function (response) {
-    $scope.Response = response;
-  }, function (err) {
-    console.trace(err.message);
-  });
+});
 
+// Custom Directive
+EsConnector.directive('myEnter', function () {
+    return function (scope, element, attrs) {
+        element.bind("keydown keypress", function (event) {
+            if(event.which === 13) {
+                scope.$apply(function (){
+                    scope.$eval(attrs.myEnter);
+                });
+
+                event.preventDefault();
+            }
+        });
+    };
 });
