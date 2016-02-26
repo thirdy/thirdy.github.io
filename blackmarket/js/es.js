@@ -25,6 +25,16 @@ EsConnector.controller('ExileToolsHelloWorld', function($scope, es) {
                    "query": $scope.searchInput
                 }
             },
+            // Is this faster?
+            /*"query": {
+              "filtered": {
+                "query": {
+                    "query_string": {
+                       "query": $scope.searchInput
+                    }
+                }
+              }
+            },*/
             size:100
           }
           }).then(function (response) {
