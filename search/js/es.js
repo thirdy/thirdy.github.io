@@ -17,18 +17,48 @@ $.ajax({
       lines = data.split('\n');
       for(i in lines) {
           line = lines[i];
-          lastEqualsIdx =  line.lastIndexOf('=');
-          arr =  [ line.substring(0, lastEqualsIdx), line.substring(lastEqualsIdx) ];
-          terms[arr[0]] = arr[1];
+          if(line.trim().length > 0 && !line.startsWith(';')) {
+              lastEqualsIdx =  line.indexOf("=");
+              regex = line.substring(0, lastEqualsIdx).trim();
+              terms[regex] = line.substring(lastEqualsIdx + 1).trim();
+          }
       }
     }
 });
-console.info(terms);
+
+function parseSearchInput(input) {
+    tokens = input.split(" ");
+    result = [];
+    for (i in tokens) {
+        token = tokens[i];
+        if ( token != "OR" || token != "AND") {
+            for (regex in terms) {
+               if (terms.hasOwnProperty(regex)) {
+                rgex = new RegExp(regex);
+                foundMatch = rgex.test(token);
+                if (foundMatch) {
+                    result.push(terms[regex]);
+                    break;
+                }
+              }
+            }
+        } else {
+            result.push(token);
+        }
+    }
+    resultStr = result.join(" ");
+    return resultStr;
+}
 
 EsConnector.controller('ExileToolsHelloWorld', function($scope, es) {
   // Default
-  $scope.searchInput = "attributes.baseItemType:Armour AND shop.updated:>1456191110199";
+  $scope.searchInput = "gloves OR boots";
+  // attributes.baseItemType:Armour AND shop.updated:>1456191110199
   $scope.doSearch = function() {
+          console.log(terms);
+          searchQuery = parseSearchInput($scope.searchInput);
+          console.log(searchQuery);
+          
           es.search({
           index: 'index',
           body: {
@@ -41,7 +71,7 @@ EsConnector.controller('ExileToolsHelloWorld', function($scope, es) {
             ], 
             "query": {
                 "query_string": {
-                   "query": $scope.searchInput
+                   "query": searchQuery
                 }
             },
             // Is this faster?

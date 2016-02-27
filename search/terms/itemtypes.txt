@@ -1,36 +1,37 @@
 ;
 ; Item Types
+; TODO: finish porting these to exile tools
 ;
-(1|one)h(and)?                  =       type=1h
-(2|two)h(and)?                  =       type=2h
-bow                             =       type=Bow
-claw                            =       type=Claw
-dagger                          =       type=Dagger
-axe|1haxe                       =       type=One Hand Axe
-mace|1hmace                     =       type=One Hand Mace
-sword|1hsword                   =       type=One Hand Sword
-scep(tre)?                      =       type=Sceptre
-staff                           =       type=Staff
-2haxe                           =       type=Two Hand Axe
-2hmace                          =       type=Two Hand Mace
-2hsword                         =       type=Two Hand Sword
-wand                            =       type=Wand
+(1|one)h(and)?                  =       attributes.itemType=1h
+(2|two)h(and)?                  =       attributes.itemType=2h
+bow                             =       attributes.itemType=Bow
+claw                            =       attributes.itemType=Claw
+dagger                          =       attributes.itemType=Dagger
+axe|1haxe                       =       attributes.itemType=One Hand Axe
+mace|1hmace                     =       attributes.itemType=One Hand Mace
+sword|1hsword                   =       attributes.itemType=One Hand Sword
+scep(tre)?                      =       attributes.itemType=Sceptre
+staff                           =       attributes.itemType=Staff
+2haxe                           =       attributes.itemType=Two Hand Axe
+2hmace                          =       attributes.itemType=Two Hand Mace
+2hsword                         =       attributes.itemType=Two Hand Sword
+wand                            =       attributes.itemType=Wand
 
-(chest|body)(armou?r)?          =       type=Body Armour
-boots?                          =       type=Boots
-gloves?                         =       type=Gloves
-helm(et)?                       =       type=Helmet
-shield                          =       type=Shield
+(chest|body)(armou?r)?          =       attributes.itemType=Body
+boots?                          =       attributes.itemType=Boots
+gloves?                         =       attributes.itemType=Gloves
+helm(et)?                       =       attributes.itemType=Helmet
+shield                          =       attributes.itemType=Shield
                                 
-am+(ulet|y)                     =       type=Amulet
-belt                            =       type=Belt
-cur+(en)?(cy)?                  =       type=Currency
-Div(inatio)?(Card)?             =       type=Divination Card
-fish                            =       type=Fishing Rods
-fla?sk                          =       type=Flask
-gem                             =       type=Gem
-je?we?l                         =       type=Jewel
-map                             =       type=Map
-quiv(er)?                       =       type=Quiver
-ring                            =       type=Ring
-frag                            =       type=Vaal Fragments
+am+(ulet|y)                     =       attributes.itemType=Amulet
+belt                            =       attributes.itemType=Belt
+cur+(en)?(cy)?                  =       attributes.itemType=Currency
+Div(inatio)?(Card)?             =       attributes.itemType=Card
+fish                            =       attributes.itemType=Fishing Rod
+fla?sk                          =       attributes.itemType=Flask
+gem                             =       attributes.itemType=Gem
+je?we?l                         =       attributes.itemType=Jewel
+map                             =       attributes.itemType=Map
+quiv(er)?                       =       attributes.itemType=Quiver
+ring                            =       attributes.itemType=Ring
+frag                            =       attributes.itemType=Vaal Fragment
