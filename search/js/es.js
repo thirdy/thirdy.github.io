@@ -6,6 +6,25 @@ EsConnector.service('es', function (esFactory) {
   return esFactory({ host: 'http://apikey:DEVELOPMENT-Indexer@api.exiletools.com' });
 });
 
+// Load Terms Map
+var terms = {};
+$.ajax({
+    url:'terms/itemtypes.txt',
+    success: function (data){
+      //parse your data here
+      //you can split into lines using data.split('\n') 
+      //an use regex functions to effectively parse it
+      lines = data.split('\n');
+      for(i in lines) {
+          line = lines[i];
+          lastEqualsIdx =  line.lastIndexOf('=');
+          arr =  [ line.substring(0, lastEqualsIdx), line.substring(lastEqualsIdx) ];
+          terms[arr[0]] = arr[1];
+      }
+    }
+});
+console.info(terms);
+
 EsConnector.controller('ExileToolsHelloWorld', function($scope, es) {
   // Default
   $scope.searchInput = "attributes.baseItemType:Armour AND shop.updated:>1456191110199";
