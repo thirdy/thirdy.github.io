@@ -13,6 +13,7 @@ EsConnector.controller('ExileToolsHelloWorld', function($scope, es) {
   $scope.queryString = "";
   // attributes.baseItemType:Armour AND shop.updated:>1456191110199
   $scope.doSearch = function() {
+          $scope.Response = null;
           console.log(terms);
           var searchQuery = parseSearchInput($scope.searchInput);
           console.log("searchQuery=" + searchQuery);
