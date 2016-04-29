@@ -7,16 +7,16 @@
 3. Path of Exile Open Source Projects:
   - [ExileTrade](http://exiletra.de/) - A Search website specialized in finding items for trade. It features search by terms instead of a search form similar to a search engine powered by ElasticSearch. This is a collaborative project where I worked on the JavaScript parts.
   
-  > <img src="https://cloud.githubusercontent.com/assets/75921/14044084/09984126-f2c7-11e5-8796-7986b1aeef17.PNG" width="350">
+  > <img src="https://cloud.githubusercontent.com/assets/75921/14044084/09984126-f2c7-11e5-8796-7986b1aeef17.PNG" width="380">
 
   - [Durian](http://thirdy.github.io/durian/) - Predecessor to ExileTrade, it features the same concept of search by terms but as a Java Swing Desktop Application. This tool acts as a layer on top of popular search site called poe.trade. It works by emulating HTTP requests to poe.trade and web scraping it’s html respone. The tool was popular for it’s automated search feature.
   
-  > <img src="https://cloud.githubusercontent.com/assets/75921/12061705/40575b44-afc8-11e5-8fd2-e4e2988648f7.PNG" width="350"> 
+  > <img src="https://cloud.githubusercontent.com/assets/75921/12061705/40575b44-afc8-11e5-8fd2-e4e2988648f7.PNG" width="380"> 
   
   - [Blackmarket](https://www.pathofexile.com/forum/view-thread/1454058) - An experimental search tool I made in the past using JavaFX 8 and Java 8. It uses ElasticSearch.
   
-  > <img src="https://cloud.githubusercontent.com/assets/75921/11016898/9b4ee630-85c9-11e5-8d20-fd2a8980595c.PNG" width="350"> 
-  > <img src="https://cloud.githubusercontent.com/assets/75921/11015037/7d0bf342-8589-11e5-84db-42c573759859.png" width="350" height="300"> 
+  > <img src="https://cloud.githubusercontent.com/assets/75921/11016898/9b4ee630-85c9-11e5-8d20-fd2a8980595c.PNG" width="380"> 
+  > <img src="https://cloud.githubusercontent.com/assets/75921/11015037/7d0bf342-8589-11e5-84db-42c573759859.png" width="150" height="330"> 
   
   - [Forgotten Mods](https://www.pathofexile.com/forum/view-thread/1164052) - A chrome extension providing Quality of Life features to poe.trade. It heavily uses JQuery in order to modify the website.
   
