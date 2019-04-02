@@ -1,4 +1,6 @@
-# Personal Website of Vicente "thirdy" de Rivera III
+## Personal website of Vicente de Rivera III
+
+http://thirdy.github.io/
 
 ## Java Programmer + some JS
 
