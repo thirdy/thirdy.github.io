@@ -1,0 +1,314 @@
+[
+  {
+    "Title": "Debt: The First 5000 Years ",
+    "Author": "David Graeber ",
+    "Category": "History ",
+    "Type": "Book ",
+    "Link": "https://libcom.org/files/__Debt__The_First_5_000_Years.pdf ",
+    "Notes": "Chapter 5 makes an interesting case that we already are practicing communism. This book is a must read. "
+  },
+  {
+    "Title": "Why Socialism? ",
+    "Author": "Albert Einstein ",
+    "Category": "Socialism ",
+    "Type": "Essay ",
+    "Link": "http://monthlyreview.org/2009/05/01/why-socialism/ ",
+    "Notes": ""
+  },
+  {
+    "Title": "Uncle Bob The Future of Programming (Kuppelsalen, Copenhagen) ",
+    "Author": "Robert C. Martin ",
+    "Category": "Software Development ",
+    "Type": "Talk ",
+    "Link": "https://www.youtube.com/watch?v=9Xy3QC7yxJw ",
+    "Notes": ""
+  },
+  {
+    "Title": "The Purpose of Estimation ",
+    "Author": "Martin Fowler ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "https://www.thoughtworks.com/insights/blog/purpose-estimation ",
+    "Notes": "Good read about knowing when to do estimate "
+  },
+  {
+    "Title": "Design, Composition and Performance ",
+    "Author": "Rich Hickey ",
+    "Category": "Software Development ",
+    "Type": "Talk ",
+    "Link": "https://www.infoq.com/presentations/Design-Composition-Performance ",
+    "Notes": "Probably the most important presentation for the Software Development today "
+  },
+  {
+    "Title": "Confucius from the Heart ",
+    "Author": "Yu Dan ",
+    "Category": "Philosophical ",
+    "Type": "Book ",
+    "Link": "https://books.google.com.ph/books?id=rmEWYVJiivgC ",
+    "Notes": "Great easy and insightful read "
+  },
+  {
+    "Title": "Datawarehousing Concepts Basics (Fact and Dimension Table) ",
+    "Author": "Tech Coach",
+    "Category": "Database ",
+    "Type": "Video ",
+    "Link": "https://www.youtube.com/watch?v=Q7KHW2oCOUI ",
+    "Notes": "A very good introduction to datawarehousing from a typical developer who has worked only with 3NF databases. "
+  },
+  {
+    "Title": "Estimation Games ",
+    "Author": "Rob Thomsett ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "http://www.thomsett.com.au/library/item/estimation-games ",
+    "Notes": "See also hackernews comments - https://news.ycombinator.com/item?id=9182814 "
+  },
+  {
+    "Title": "Java Tech Boise - Clojure - June 20, 2013 ",
+    "Author": "Justin Reed ",
+    "Category": "Programming ",
+    "Type": "Presentation ",
+    "Link": "http://www.youtube.com/watch?v=CvRGJGK09tc ",
+    "Notes": ""
+  },
+  {
+    "Title": "Simple Made Easy ",
+    "Author": "Rich Hickey ",
+    "Category": "Programming ",
+    "Type": "Talk ",
+    "Link": "http://www.infoq.com/presentations/Simple-Made-Easy ",
+    "Notes": ""
+  },
+  {
+    "Title": "Inventing on Principle ",
+    "Author": "Bret Victor ",
+    "Category": "Software, Philosophical",
+    "Type": "Talk ",
+    "Link": "http://www.youtube.com/watch?v=PUv66718DII ",
+    "Notes": ""
+  },
+  {
+    "Title": "Null References: The Billion Dollar Mistake ",
+    "Author": "Tony Hoare ",
+    "Category": "Programming Language ",
+    "Type": "Talk ",
+    "Link": "http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare ",
+    "Notes": ""
+  },
+  {
+    "Title": "Beating the Avarages ",
+    "Author": "Paul Graham ",
+    "Category": "Software Development, Programming ",
+    "Type": "Article ",
+    "Link": "http://www.paulgraham.com/avg.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Every Software Developer Must Know About Unicode and Character Sets",
+    "Author": "Joel Spolsky ",
+    "Category": "Programming ",
+    "Type": "Article ",
+    "Link": "http://www.joelonsoftware.com/articles/Unicode.html ",
+    "Notes": "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) "
+  },
+  {
+    "Title": "Mountain West Ruby 2012 Capability vs. Suitability ",
+    "Author": "Gary Bernhardt ",
+    "Category": "Software Development ",
+    "Type": "Talk ",
+    "Link": "http://www.youtube.com/watch?v=NftT6HWFgq0 ",
+    "Notes": ""
+  },
+  {
+    "Title": "Thoughts on code reviews ",
+    "Author": "Davy Brion ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "http://thatextramile.be/blog/2008/05/thoughts-on-code-reviews/ ",
+    "Notes": ""
+  },
+  {
+    "Title": "There's Only One Valid Metric For Developer Productivity And Quality ",
+    "Author": "Davy Brion ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "http://thatextramile.be/blog/2011/02/theres-only-one-valid-metric-for-developer-productivity-and-quality ",
+    "Notes": ""
+  },
+  {
+    "Title": "Software Development: Fast and Slow ",
+    "Author": "Michael Dubakov ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "http://agile.dzone.com/articles/software-development-fast-and ",
+    "Notes": ""
+  },
+  {
+    "Title": "What to Say When Someone Just Doesn't Get It ",
+    "Author": "Alan Shalloway ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "http://www.netobjectives.com/coaching/what-to-say-when-someone-just-doesnt-get-it ",
+    "Notes": ""
+  },
+  {
+    "Title": "How Religion Destroys Programmers ",
+    "Author": "John Sonmez ",
+    "Category": "Programming ",
+    "Type": "Article ",
+    "Link": "http://agile.dzone.com/articles/how-religion-destroys ",
+    "Notes": ""
+  },
+  {
+    "Title": "Teach Yourself Programming in Ten Years ",
+    "Author": "Peter Norvig ",
+    "Category": "Programming ",
+    "Type": "Article ",
+    "Link": "http://norvig.com/21-days.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Design Tech Talk Series Presents: OO Design for Testability ",
+    "Author": "Miško Hevery ",
+    "Category": "Programming ",
+    "Type": "Talk ",
+    "Link": "http://www.youtube.com/watch?v=acjvKJiOvXw ",
+    "Notes": ""
+  },
+  {
+    "Title": "SRP: Simplicity and Complexity ",
+    "Author": "Sandro Mancuso ",
+    "Category": "Programming ",
+    "Type": "Article ",
+    "Link": "http://craftedsw.blogspot.com/2011/07/srp-simplicity-and-complexity.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Effective Unit Testing: A Guide for Java Developers ",
+    "Author": "Lasse Koskela ",
+    "Category": "Programming ",
+    "Type": "Book ",
+    "Link": "http://www.manning.com/koskela2/ ",
+    "Notes": ""
+  },
+  {
+    "Title": "Peopleware: Productive Projects and Teams ",
+    "Author": "Tom DeMarco, Timothy Lister ",
+    "Category": "Software Development ",
+    "Type": "Book ",
+    "Link": "http://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams ",
+    "Notes": ""
+  },
+  {
+    "Title": "Developers - Prima Donnas of the 21st Century ",
+    "Author": "Hadi Hariri ",
+    "Category": "Software Development ",
+    "Type": "Talk ",
+    "Link": "https://www.parleys.com/tutorial/developers-prima-donnas-21st-century ",
+    "Notes": ""
+  },
+  {
+    "Title": "Getting Started with the NetBeans Platform ",
+    "Author": "Geertjan Wielenga ",
+    "Category": "Technology, Programming ",
+    "Type": "Video ",
+    "Link": "https://www.youtube.com/watch?v=YZGJN1feN9M ",
+    "Notes": ""
+  },
+  {
+    "Title": "javapractices ",
+    "Author": "Hirondelle Systems ",
+    "Category": "Architecture ",
+    "Type": "Website ",
+    "Link": "http://www.javapractices.com ",
+    "Notes": ""
+  },
+  {
+    "Title": "Why extends is evil ",
+    "Author": "Allen Holub ",
+    "Category": "Programming ",
+    "Type": "Article ",
+    "Link": "http://www.javaworld.com/javaworld/jw-08-2003/jw-0801-toolbox.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "5 dangerous things you should let your kids do ",
+    "Author": "Gever Tulley ",
+    "Category": "Creativity ",
+    "Type": "Talk ",
+    "Link": "http://www.ted.com/talks/gever_tulley_on_5_dangerous_things_for_kids.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Why getter and setter methods are evil ",
+    "Author": "Allen Holub ",
+    "Category": "Programming ",
+    "Type": "Article ",
+    "Link": "http://www.javaworld.com/javaworld/jw-09-2003/jw-0905-toolbox.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Ken Robinson says schools kill creativity ",
+    "Author": "Ken Robinson ",
+    "Category": "Creativity ",
+    "Type": "Talk ",
+    "Link": "http://www.ted.com/index.php/talks/ken_robinson_says_schools_kill_creativity.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "The New Methodology ",
+    "Author": "Martin Fowler ",
+    "Category": "Software Development ",
+    "Type": "Article ",
+    "Link": "http://martinfowler.com/articles/newMethodology.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Are Frameworks Making Developers Dumb? ",
+    "Author": "Sivaprasadreddy ",
+    "Category": "Technology ",
+    "Type": "Article ",
+    "Link": "http://java.dzone.com/news/are-frameworks-making ",
+    "Notes": ""
+  },
+  {
+    "Title": "Why the future doesn't need us ",
+    "Author": "Bill Joy ",
+    "Category": "Dystopian ",
+    "Type": "Essay ",
+    "Link": "http://www.wired.com/wired/archive/8.04/joy_pr.html ",
+    "Notes": ""
+  },
+  {
+    "Title": "Craft and Software Engineering ",
+    "Author": "Glenn Vanderburg ",
+    "Category": "Architecture ",
+    "Type": "Presentation ",
+    "Link": "http://www.infoq.com/presentations/Craft-and-Software-Engineering ",
+    "Notes": ""
+  },
+  {
+    "Title": "Interview with Venkat Subramaniam ",
+    "Author": "ThirstyHead ",
+    "Category": "Interview ",
+    "Type": "Video ",
+    "Link": "http://blip.tv/thirstyhead/interview-with-venkat-subramaniam-2504854 ",
+    "Notes": ""
+  },
+  {
+    "Title": "Code Complete 2nd Ed ",
+    "Author": "Steven C. McConnell ",
+    "Category": "Architecture ",
+    "Type": "Book ",
+    "Link": "http://cc2e.com/ ",
+    "Notes": ""
+  },
+  {
+    "Title": "Outliers: The Story of Success ",
+    "Author": "Malcom Gladwell ",
+    "Category": "Psychology, Sociology ",
+    "Type": "Book ",
+    "Link": "http://en.wikipedia.org/wiki/Outliers_%28book%29 ",
+    "Notes": ""
+  }
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>thirdy.site</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vicente S. de Rivera III</h1>
+		<h3>Bookshelf</h3>
+    </header>
+	<p><a href="index.html">Home</a></p>
+	
+	<table id="table-content" border=1> 
+		<tr>  
+			<th>Title</th>
+			<th>Author</th>
+			<th>Category</th>
+			<th>Type</th>
+		</tr>
+	</table>
+	
+        <blockquote>"When you bury me, do not bury me in a black belt! Bury me in a white belt!"<br>
+            - Jigoro Kano, Founder of Judo
+        </blockquote>
+    
+    <hr>
+    <p><em>Copyright (c) 2019 Vicente de Rivera III <br/>
+Verbatim copying and redistribution of this entire page are permitted provided this notice is preserved.</em></p>
+
+
+	
+	<script>
+		fetch('bookshelf.json')
+		  .then(response => response.text())
+		  .then(text => updateTable(text))
+		  
+		function updateTable(raw) {
+			var data = JSON.parse(raw)
+			data.forEach(populateRow)
+		}
+		
+		function populateRow(rowData) {
+			var table = document.getElementById('table-content')
+			
+			// Create an empty <tr> element and add it to the last position of the table:
+			var row = table.insertRow(-1);
+			
+			// Prep row data:
+			rowData.Title = "<a href='" + rowData.Link + "'>" + rowData.Title + "</a>"
+			
+			// Insert new cells (<td> elements):
+			for (var key in rowData) {
+				if(key != "Link" && key != "Notes") {
+					var cell = row.insertCell(-1)
+					cell.innerHTML = rowData[key]
+				}
+			}
+		}
+	</script>
+    
+</body>
+</html>
