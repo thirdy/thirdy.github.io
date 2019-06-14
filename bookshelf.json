@@ -1,5 +1,13 @@
 [
   {
+    "Title": "The Node.js Event Loop: Not So Single Threaded",
+    "Author": "Bryan Hughes",
+    "Category": "Software Development ",
+    "Type": "Talk ",
+    "Link": "https://www.youtube.com/watch?v=zphcsoSJMvM",
+    "Notes": "Very informative watch. History of threads, processes and the challenges involved are explained well."
+  },
+  {
     "Title": "Debt: The First 5000 Years ",
     "Author": "David Graeber ",
     "Category": "History ",
