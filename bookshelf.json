@@ -1,5 +1,13 @@
 [
   {
+    "Title": "Teaching Tech Together",
+    "Author": "Greg Wilson",
+    "Category": "Software Development ",
+    "Type": "Book ",
+    "Link": "http://teachtogether.tech/",
+    "Notes": "Insightful material about Teaching Tech"
+  },
+  {
     "Title": "The Node.js Event Loop: Not So Single Threaded",
     "Author": "Bryan Hughes",
     "Category": "Software Development ",
