@@ -1,1 +1,3 @@
 HTML Meta Viewport - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+
+ "Eventually, technical debt catches up to everyone—whether you are a corporate dev team or the largest ruling party on Earth." - chatting with Gemini Sep0426
